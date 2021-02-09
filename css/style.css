@@ -15,6 +15,7 @@ body{
 /* nav_bar_logo */
 .nav_bar_section .nav_bar_logo{
   max-width: 100%;
+  max-height: 100%;
 }
 /* /nav_bar_logo */
 
@@ -51,6 +52,8 @@ body{
   vertical-align: middle;
 }
 
+
+/* nav_bar_links_right */
 .nav_bar_section li .button{
   padding: 5px 15px;
   color: rgb(156, 183, 252);
@@ -58,6 +61,21 @@ body{
   border-radius: 5px;
   border: 1px solid rgb(156, 183, 252);
 }
+/* /nav_bar_links_right */
+
+
+/* hamburger */
+.hamburger_bars{
+  border: none;
+  font-size: 20px;
+  background-color: transparent;
+  color: rgb(156, 183, 252);
+  line-height: 50px;
+}
+/* /hamburger */
+
+
+
 /* /nav_bar_links */
 
 
