@@ -20,7 +20,7 @@ body{
   font-size: 16px;
 }
 .second_paragraph{
-  font-size: 10px;
+  font-size: 8px;
   color: rgb(96, 111, 140);
 }
 /* /general_typo */
@@ -229,7 +229,6 @@ body{
 
 /* second_section */
 .second_section{
-  background-color: green;
   padding-bottom: 60px;
 }
 .second_section .second_title{
@@ -237,14 +236,6 @@ body{
 }
 .second_section .first_paragraph{
   padding-top: 0;
-}
-.second_section .container_custom{
-  background-color: red;
-  width: 70%;
-  margin: auto;
-}
-.container_custom ul{
-  padding-left: 0;
 }
 .second_section li{
   list-style: none;
@@ -293,6 +284,10 @@ body{
     font-size: 15px;
   }
   /* /first_section */
+
+  .second_section_links_list{
+    padding: 0 0 20px 0;
+  }
 
 }
 
