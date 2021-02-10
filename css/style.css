@@ -3,17 +3,25 @@ body{
 }
 
 /* general_typo */
-.general_paragraph{
+.first_paragraph{
   color: rgb(73, 92, 126);
   font-size: 20px;
   padding: 10px 0 50px 0;
   text-align: center;
 }
-.secondary_title{
+.second_title{
   color: #000;
   text-align: center;
   font-size: 30px;
   padding: 50px 0 20px 0;
+}
+.third_title{
+  color: #000;
+  font-size: 16px;
+}
+.second_paragraph{
+  font-size: 10px;
+  color: rgb(96, 111, 140);
 }
 /* /general_typo */
 
@@ -111,7 +119,7 @@ body{
   font-size: 50px;
   padding: 50px 100px 0 0;
 }
-.hero_section .general_paragraph{
+.hero_section .first_paragraph{
   color: rgb(187, 206, 253);
   text-align: left;
 }
@@ -127,7 +135,7 @@ body{
   border-radius: 5px;
   max-height: 100%;
 }
-.hero_right_container .secondary_title{
+.hero_right_container .second_title{
   font-size: 25px;
   padding: 35px 0 2px 0;
 }
@@ -163,7 +171,7 @@ body{
   color: rgb(73, 92, 126);
   box-shadow: 1px 1px #888888;
   background-image: url('../img/google-icon.png');
-  background-size: 5% 55%;
+  background-size: 7% 55%;
   background-repeat: no-repeat;
   background-position: center left;
 }
@@ -222,19 +230,31 @@ body{
 /* second_section */
 .second_section{
   background-color: green;
-  padding-bottom: 50px;
+  padding-bottom: 60px;
 }
-
-.second_section .secondary_title{
+.second_section .second_title{
   padding-bottom: 0;
 }
-.second_section .general_paragraph{
+.second_section .first_paragraph{
   padding-top: 0;
 }
 .second_section .container_custom{
   background-color: red;
   width: 70%;
   margin: auto;
+}
+.container_custom ul{
+  padding-left: 0;
+}
+.second_section li{
+  list-style: none;
+}
+.second_section .links_list{
+  color: rgb(114, 126, 152);
+  border-left: 1px solid rgb(114, 126, 152);
+  display: inline-block;
+  padding: 5px 0 5px 10px;
+  font-size: 15px;
 }
 /* /second_section */
 
@@ -259,6 +279,9 @@ body{
   }
   .hero_right_container .secondary_title{
     margin-top: 0;
+  }
+  .side_b{
+    background-size: 4% 55%;
   }
   /* /hero_section */
 
