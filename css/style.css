@@ -288,7 +288,8 @@ body{
 
 /* fourth_section */
 .fourth_section{
-  background-color: yellow;
+  background-color: orange;
+  padding-bottom: 50px;
 }
 .fourth_section .second_title{
   padding-bottom: 20px;
