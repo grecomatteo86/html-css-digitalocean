@@ -20,7 +20,7 @@ body{
   font-size: 16px;
 }
 .second_paragraph{
-  font-size: 8px;
+  font-size: 15px;
   color: rgb(96, 111, 140);
 }
 /* /general_typo */
@@ -245,7 +245,7 @@ body{
   border-left: 1px solid rgb(114, 126, 152);
   display: inline-block;
   padding: 5px 0 5px 10px;
-  font-size: 15px;
+  font-size: 20px;
 }
 /* /second_section */
 
@@ -285,9 +285,11 @@ body{
   }
   /* /first_section */
 
+  /* second_section */
   .second_section_links_list{
     padding: 0 0 20px 0;
   }
+  /* /second_section */
 
 }
 
