@@ -252,6 +252,39 @@ body{
 
 
 
+/* third_section */
+.third_section{
+  background-color: rgb(243, 245, 249);
+  padding-bottom: 60px;
+}
+.carousel{
+  max-width: 50%;
+  margin: auto;
+  background-color: transparent;
+}
+.element{
+  display: inline-block;
+}
+.carousel_angle{
+  background-color: transparent;
+  width: 3%;
+  font-size: 40px;
+  vertical-align: middle;
+}
+.carousel_img{
+  width: 92%;
+}
+.third_section .second_paragraph{
+  color:#000;
+  margin-top: 20px;
+}
+.bullets{
+  color: rgb(19, 111, 251);
+  font-size: 12px;
+}
+/* /third_section */
+
+
 
 
 
