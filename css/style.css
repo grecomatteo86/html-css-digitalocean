@@ -324,6 +324,21 @@ body{
   }
   /* /second_section */
 
+  /* third_section */
+  .carousel_angle{
+    display: none;
+  }
+  .carousel_img{
+    width: 100%;
+  }
+  .third_section .second_paragraph{
+    margin: 30px 0 30px 0;
+  }
+  .bullets{
+    padding: 30px 0 60px 0;
+  }
+  /* /third_section */
+
 }
 
 
@@ -343,6 +358,19 @@ body{
     font-size: 20px;
   }
   /* /first_section */
+
+  /* third_section */
+  .third_section .first_paragraph{
+    max-width: 60%;
+    margin: auto;
+  }
+  .third_section .carousel{
+    padding-top: 100px;
+  }
+  .third_section .bullets{
+    padding: 100px 0 30px 0;
+  }
+  /* /third_section */
 
 }
 
