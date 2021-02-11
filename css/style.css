@@ -407,18 +407,12 @@ body{
 }
 /* shark_box */
 .shark_box{
-  width: 60px;
-  height: 60px;
   background-color: rgb(19, 111, 251);
   border-radius: 5px;
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  transform: translate(-50%, -50%);
 }
 .shark_img{
   width: 100%;
-  height: 100%;
+  padding: 10px;
 }
 .dot{
   width: 25px;
@@ -430,20 +424,15 @@ body{
   position: absolute;
   top: 0;
   left: 100%;
-  transform: translate(-50%, -50%);
+  transform: translate(-100%, -50%);
 }
 .number{
   color: #fff;
 }
 .baloon{
-  width: 300px;
-  height: 50px;
   background-color: #fff;
   border-radius: 5px;
-  position: absolute;
-  top: 0;
-  left: 0;
-  transform: translate(-110%, 20%);
+  position: relative;
 }
 .quote{
   font-size: 12px;
