@@ -304,10 +304,41 @@ body{
 
 /* TABLE_fifth_section */
 .fifth_section{
-  background-color: blue;
+  background-color: rgb(5, 29, 77);
+  padding-bottom: 60px;
+  background-image: url('../img/world.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
-.fifth_section .second_title{
+.fifth_section .second_title, .fifth_section .city​_abbreviation{
   color: #fff;
+}
+.fifth_section .city​_abbreviation,.fifth_section .city_country,.fifth_section .link_table{
+  font-size: 12px;
+  font-weight: 500;
+}
+.fifth_section .city​_abbreviation{
+  text-transform: uppercase;
+}
+.fifth_section .city_country{
+  color: rgb(173, 186, 222);
+}
+.fifth_section .link_table{
+  text-decoration: none;
+}
+.fifth_section .link_table,.angle_right_table{
+  color: rgb(30, 188, 200);
+}
+.fifth_section .angle_right_table{
+  font-size: 10px;
+}
+.bb{
+  border-bottom: 1px solid #fff;
+  margin: 0 auto 10px;
+}
+.bn{
+  border-bottom: none;
 }
 /* /TABLE_fifth_section */
 
