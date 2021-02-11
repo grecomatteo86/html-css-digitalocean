@@ -447,6 +447,22 @@ body{
 .social{
   color: rgb(122, 133, 156);
 }
+.footer_section .third_title{
+  color:#fff;
+}
+.footer_links_list{
+  padding-left: 0;
+}
+.footer_links_list li{
+  list-style: none;
+}
+.footer_section .link{
+  color: rgb(145, 152, 169);
+  padding-bottom: 5px;
+}
+.footer_links_list .link:not(li:first-child .link){
+  padding-top: 0;
+}
 /* /footer */
 
 
