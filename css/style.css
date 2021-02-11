@@ -36,7 +36,7 @@ body{
 /* header_section */
 .nav_bar_section{
   height: 50px;
-  background-color: green;
+  background-color: #fff;
   line-height: 50px;
 }
 
@@ -81,10 +81,10 @@ body{
 /* nav_bar_links_right */
 .nav_bar_section li .button{
   padding: 5px 15px;
-  color: rgb(156, 183, 252);
+  color: rgb(9, 106, 251);
   background-color: #fff;
   border-radius: 5px;
-  border: 1px solid rgb(156, 183, 252);
+  border: 1px solid rgb(9, 106, 251);
 }
 /* /nav_bar_links_right */
 
@@ -386,6 +386,28 @@ body{
 }
 /* /sixth_section */
 
+
+
+
+
+/* CTA_seventh_section */
+.seventh_section{
+  padding-bottom: 50px;
+  background: rgb(0,31,179);
+  background: linear-gradient(180deg, rgba(0,31,179,1) 0%, rgba(51,171,245,1) 100%);
+}
+.seventh_section .second_title{
+  color:#fff;
+}
+.seventh_section .button{
+  padding: 10px 15px;
+  color: rgb(9, 106, 251);
+  background-color: #fff;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  font-weight: 500;
+}
+/* /CTA_seventh_section */
 
 
 
