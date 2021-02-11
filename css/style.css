@@ -417,6 +417,44 @@ body{
 
 
 
+/* footer */
+.footer_section{
+  background-color: rgb(5, 30, 77);
+  padding-top: 50px;
+}
+.footer_logo{
+  max-width: 15%;
+}
+.copy,.footer_section .second_paragraph {
+  display: inline-block;
+  color: rgb(128, 138, 160);
+  font-size: 13px;
+  font-weight: 500;
+  margin: 15px 0 0 0;
+}
+.made{
+  color: rgb(88, 102, 132);
+  font-size: 12px;
+  font-weight: 500;
+}
+.socials_list{
+  padding-left: 0;
+}
+.socials_list li{
+  display: inline-block;
+  margin-right: 10px;
+}
+.social{
+  color: rgb(122, 133, 156);
+}
+/* /footer */
+
+
+
+
+
+
+
 
 
 
