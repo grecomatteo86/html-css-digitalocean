@@ -399,7 +399,7 @@ body{
 /* FOOTER */
 .footer_section{
   background-color: rgb(5, 30, 77);
-  padding: 50px 0;
+  padding: 50px 0 100px 0;
   position: relative;
 }
 .footer_logo{
@@ -454,6 +454,10 @@ body{
 .shark_box{
   background-color: rgb(19, 111, 251);
   border-radius: 20%;
+  position: fixed;
+  bottom:50px;
+  right: 50px;
+  width: 5%;
 }
 .shark_img{
   width: 100%;
@@ -469,7 +473,7 @@ body{
   position: absolute;
   top: 0;
   left: 100%;
-  transform: translate(-100%, -50%);
+  transform: translate(-50%, -50%);
 }
 .number{
   color: #fff;
@@ -479,6 +483,10 @@ body{
   border-radius: 5px;
   position: relative;
   filter: drop-shadow(2px 2px 2px rgb(22, 132, 252));
+  position: fixed;
+  bottom:50px;
+  right: 150px;
+  width: 20%;
 }
 .quote{
   font-size: 12px;
@@ -506,6 +514,22 @@ body{
     max-width: 80%;
   }
   /* /sixth_section */
+  /* footer */
+  .footer_section .arrow_right{
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 10px solid #fff;
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    transform: translate(0, 100%);
+  }
+  .footer_section .shark_box{
+    width: 10%;
+  }
+  /* /footer */
 }
 /* /phone */
 /* tablet */
@@ -563,6 +587,19 @@ body{
     padding: 0 0 20px 0;
   }
   /* /sixth_section */
+  /* footer */
+  .arrow_right{
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 10px solid #fff;
+    position: absolute;
+    top: 30%;
+    left: 100%;
+    transform: translate(0, 100%);
+  }
+  /* /footer */
 }
 /* /tablet */
 /* desktop */
