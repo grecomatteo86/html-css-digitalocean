@@ -80,6 +80,9 @@ body{
   border: 1px solid rgb(9, 106, 251);
 }
 /* /nav_bar_links_right */
+.nav_bar_section .nav_bar_links_left a:hover,.nav_bar_section .nav_bar_links_right a:hover{
+  color: rgb(45, 136, 250);
+}
 /* hamburger */
 .hamburger_bars{
   border: none;
@@ -146,8 +149,8 @@ body{
   text-decoration: none;
 }
 .side_a{
-  background-color: rgb(156, 183, 252);
-  border: 1px solid rgb(156, 183, 252);
+  background-color: rgb(45, 136, 250);
+  border: 1px solid rgb(45, 136, 250);
   color: #fff;
 }
 .side_b{
@@ -165,6 +168,14 @@ body{
 }
 .terms_of_condition{
   text-decoration: underline;
+}
+.hero_section .hero_right_small_container .side_a:hover{
+  background-color: rgb(16, 81, 251);
+  border: 1px solid rgb(16, 81, 251);
+  color: #fff;
+}
+.hero_section .hero_right_small_container .side_b:hover{
+  color:rgb(16, 81, 251);
 }
 /* /hero_right */
 /* /HERO_SECTION */
@@ -192,6 +203,10 @@ body{
 .first_section .link{
   text-decoration: none;
 }
+.first_section .link:hover{
+  color:rgb(16, 81, 251);
+  font-weight: 600;
+}
 /* /FIRST_SECTION */
 /* SECOND_SECTION */
 .second_section{
@@ -214,6 +229,10 @@ body{
   font-size: 20px;
   text-decoration: none;
 }
+.second_section .links_list:hover{
+  color:rgb(45, 136, 250);
+  border-left: 2px solid rgb(45, 136, 250);
+}
 /* /SECOND_SECTION */
 /* THIRD_SECTION */
 .third_section{
@@ -233,6 +252,9 @@ body{
   width: 3%;
   font-size: 40px;
   vertical-align: middle;
+}
+.carousel_angle:hover{
+  color: rgb(16, 81, 251);
 }
 .carousel_img{
   width: 92%;
@@ -257,6 +279,10 @@ body{
 .fourth_section .link{
   padding-top: 0;
   text-decoration: none;
+}
+.fourth_section .link:hover{
+  color:rgb(16, 81, 251);
+  font-weight: 600;
 }
 /* /FOURTH_SECTION */
 /* FIFTH_SECTION */
@@ -286,6 +312,10 @@ body{
 }
 .fifth_section .link_table,.angle_right_table{
   color: rgb(30, 188, 200);
+}
+.fifth_section .link_table:hover{
+  font-weight: 600;
+  color: rgb(16, 81, 251);
 }
 .fifth_section .angle_right_table{
   font-size: 10px;
@@ -336,6 +366,10 @@ body{
 .sixth_section .link{
   text-decoration: none;
 }
+.sixth_section .link:hover{
+  color:rgb(16, 81, 251);
+  font-weight: 600;
+}
 /* /SIXTH_SECTION */
 /* SEVENTH_SECTION */
 .seventh_section{
@@ -355,6 +389,11 @@ body{
   border: 1px solid #fff;
   font-weight: 500;
   text-decoration: none;
+}
+.seventh_section .button:hover{
+  background-color: rgb(16, 81, 251);
+  border: 1px solid #fff;
+  color: #fff;
 }
 /* /SEVENTH_SECTION */
 /* FOOTER */
@@ -388,6 +427,9 @@ body{
 .social{
   color: rgb(122, 133, 156);
 }
+.social:hover{
+  color: rgb(22, 132, 252);
+}
 .footer_section .third_title{
   color:#fff;
 }
@@ -404,6 +446,9 @@ body{
 }
 .footer_links_list .link:not(li:first-child .link){
   padding-top: 0;
+}
+.footer_section .link:hover{
+  color: rgb(22, 132, 252);
 }
 /* shark_box */
 .shark_box{
