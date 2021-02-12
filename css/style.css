@@ -453,7 +453,7 @@ body{
 /* shark_box */
 .shark_box{
   background-color: rgb(19, 111, 251);
-  border-radius: 5px;
+  border-radius: 20%;
 }
 .shark_img{
   width: 100%;
@@ -478,6 +478,7 @@ body{
   background-color: #fff;
   border-radius: 5px;
   position: relative;
+  filter: drop-shadow(2px 2px 2px rgb(22, 132, 252));
 }
 .quote{
   font-size: 12px;
